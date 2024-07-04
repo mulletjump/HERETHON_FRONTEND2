@@ -87,13 +87,14 @@ header {
 .title__container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #ffffff;
     margin-top: 100px;
 }
 
 .detail__title {
     margin: 50px;
-    font-size: 34px;
+    font-size: 30px;
     font-weight: 1000;
     background-color: #ffffff;
 }
@@ -102,11 +103,18 @@ header {
     margin: 40px;
     margin-top: 60px;
     color: #f4d3c0;
-
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
 }
 
 .author>span {
     font-weight: 800;
+    color: #000000;
+    margin-right: 10px;
+}
+
+.likes {
     color: #000000;
 }
 
@@ -131,4 +139,9 @@ header {
     content: "";
     display: block;
     height: 400px;
+}
+
+.likes::before {
+    content: "❤️";
+    margin-right: 5px;
 }
