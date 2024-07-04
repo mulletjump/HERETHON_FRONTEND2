@@ -423,3 +423,153 @@ img {
     display: block;
     height: 400px;
 }
+
+
+/* news */
+.news-search {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.news-search input[type="text"] {
+    width: 570px;
+    height: 43px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f9f9f9;
+    margin-left: 10px;
+}
+
+.news-search-container {
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    padding: 13px
+}
+
+.news-search div:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.news-search div:nth-child(2) {
+    display: flex;
+    align-items: center;
+}
+
+.news-search img {
+    margin-right: 8px;
+    margin-top: -5px;
+}
+
+.job-select-container {
+    width: 200px;
+    background: #fffaec;
+    display: flex;
+    justify-content: center;
+
+}
+
+.news-search .job-select {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.job-select {
+    width: 154px;
+    background-color: #fccfcf49;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+.news-search .job-select {
+    margin-left: 20px;
+}
+
+.news-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.news-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.news-item:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.news-content {
+    flex: 1;
+}
+
+.quote {
+    font-size: 22px;
+    font-weight: 800;
+    margin: 0 10px 10px 0;
+    color: #414141;
+}
+
+.news-content>.divider {
+    width: 900px;
+    height: 1px;
+    background-color: #000;
+    border: none;
+    margin-top: 22px;
+}
+
+.author {
+    font-size: 20px;
+    color: #f4d3c0;
+    margin-top: 10px;
+}
+
+.author>span {
+    font-size: 18px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.news-stats {
+    display: flex;
+    align-items: center;
+    min-width: 50px;
+}
+
+.news-stats .likes {
+    font-size: 16px;
+    color: #888;
+    margin-left: 5px;
+}
+
+.news-stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.likes::before {
+    content: "❤️";
+    margin-right: 5px;
+}
