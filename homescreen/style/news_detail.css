@@ -1,0 +1,134 @@
+/* news_detail */
+:root {
+    --color-grey: #414141;
+    --color-white: #ffffff;
+    --color-apricot: #f4d3c0;
+    --color-black: #000000;
+    --color-lightgrey: #b8b8b8;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-color: var(--color-grey);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 50px;
+    height: 70px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+
+.header__menu__item {
+    color: var(--color-white);
+    margin-left: 20px;
+    font-size: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.homeText {
+    font-size: 26px;
+    font-weight: 900;
+    margin-left: -20px;
+}
+
+#wrap {
+    width: 950px;
+    background-color: var(--color-white);
+}
+
+.home__img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 220px;
+    margin-top: -30px;
+}
+
+.title__container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    margin-top: 100px;
+}
+
+.detail__title {
+    margin: 50px;
+    font-size: 34px;
+    font-weight: 1000;
+    background-color: #ffffff;
+}
+
+.author {
+    margin: 40px;
+    margin-top: 60px;
+    color: #f4d3c0;
+
+}
+
+.author>span {
+    font-weight: 800;
+    color: #000000;
+}
+
+.question__container {
+    margin: 30px;
+    margin-top: 70px;
+}
+
+.question {
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.pic_container {
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+}
+
+#main::after {
+    content: "";
+    display: block;
+    height: 400px;
+}
