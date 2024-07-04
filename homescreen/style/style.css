@@ -461,15 +461,18 @@ img {
 }
 
 .news-search img {
+    width: 30px;
+    height: 30px;
     margin-right: 8px;
     margin-top: -5px;
 }
 
 .job-select-container {
     width: 200px;
-    background: #fffaec;
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 
 }
 
@@ -486,17 +489,16 @@ img {
 
 
 .job-select {
-    width: 154px;
     background-color: #fccfcf49;
     font-size: 16px;
     padding: 10px 20px;
     border: 1px solid #ccc;
     cursor: pointer;
-    display: flex;
-    align-items: center;
+    height: 60px;
+    width: 200px;
     text-align: center;
+    justify-content: center;
 }
-
 
 .news-search .job-select {
     margin-left: 20px;
